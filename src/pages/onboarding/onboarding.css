@@ -1,0 +1,52 @@
+
+/* .onboarding form{
+    display: flex;
+    justify-content: center;
+} */
+.onboarding form section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.onboarding form input{
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+}
+.onboarding form input[type="submit"]{
+    background-color: rgb(90, 66, 145);
+    width: 50%;
+}
+.onboarding form input[type="radio"]:checked + label{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(184, 129, 129, 0.671) ;
+}
+
+.profile_container img{
+    width: 100%;
+}
+.multiple_inputs{
+    display: flex;
+    align-items: center;
+}
+
+.gender_input{
+    margin: 15px 10px;
+    display: flex;
+
+}
+/* .gender_input label{
+    
+    justify-content: center;
+   
+} */
+.gender_input .label{
+    margin: 10px;
+    
+    margin-right: 20px;
+    text-align: left;
+    font-size: 25px;
+    padding-right: 10px;
+    border-right: 2px solid black;
+}

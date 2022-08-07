@@ -1,0 +1,21 @@
+
+
+.btmbar_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+    background-color: #dbd2d2;
+    /* background-color: #010c22; */
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    position: fixed;
+    bottom: 0;
+    
+}
+.bottombar{
+   position: fixed;
+   width: 100%;
+   margin-top: 30px;
+}

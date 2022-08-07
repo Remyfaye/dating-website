@@ -1,0 +1,255 @@
+
+.chat_page__{
+    overflow-y: scroll;
+}
+.chat_header_top{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+    align-items: center;
+}
+.search_icon{
+    background-color: rgb(225, 215, 250);
+    border-radius: 50%;
+    padding: 7px;
+}
+.chat_header_bottom{
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.chat_bottom_item{
+    font-size: 23px;
+    color:rgb(120, 120, 132) ;
+}
+
+.chat_header_wrapper{
+    border-bottom: 1px solid rgb(127, 66, 192);
+   
+}
+.bottom_numbers{
+    background-color:rgb(222, 222, 224) ;
+    border-radius: 50%;
+    padding: 8px 5px;
+    margin: 10px;
+}
+
+
+/*========================chat display=====================*/
+.chat{
+    overflow: auto;
+    
+}
+.chst_display_ulti{
+    margin-top: 90px;
+}
+.chatDisplay_wrapper{
+    display: flex;
+    align-items: center;
+    margin: 5px 8px;
+    padding: 10px;
+}
+.chat_display_img{
+    width: 70px;
+    
+    border-radius: 50%;
+    
+}
+.chat_display_img_alt{
+    object-fit: cover;
+}
+.chat_display_info{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px  20px;
+  
+}
+.info_name{
+    text-align: left;
+    margin: 3px 10px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+.info_text{
+    
+    text-align: left;
+    margin: 3px 10px;
+    overflow-x: hidden;
+}
+.chatDisplay{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time_stamp{
+    margin: 30px;
+}
+
+/*=======================matches display=============*/
+.match_container{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+}
+.match_wrapper{
+    background-color: rgba(202, 202, 202, 0.533);
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 35vh;
+}
+.match_wrapper img{
+   width: 100%;
+   height: 150px;
+   border-radius: 20px;
+   
+}
+
+.match_info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 15px 0;
+}
+.match_info span{
+    text-align: left;
+    margin-left: 15px;
+    margin: 5px;
+}
+.match_info_name{
+    font-weight: bold;
+}
+
+/*======================chat input================*/
+.chat_left{
+    text-align: left;
+    margin: 20px;
+    background-color: rgba(206, 168, 168, 0.45);
+    width: 45%;
+    object-fit: contain;
+    padding: 15px 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+.chat_left span{
+    width: 100%;
+}
+.chat_right{
+    text-align: start;
+    margin: 20px;
+    background-color: rgba(185, 185, 228, 0.812);
+    width: 45%;
+    margin-left: auto;
+    padding: 10px;
+    word-wrap: break-word;
+    /* word-break: break-all; */
+    border-radius: 10px;
+}
+.chat_input_text{
+    position: fixed;
+    bottom: 15px;
+    display: flex;
+    right: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.chat_input_text.dashboard{
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    right: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.chat_input_text textarea{
+    padding: 15px;
+    width: 50vh;
+    border-radius: 20px;
+}
+.chat_submit_btn{
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.chat_active{
+    display: none;
+}
+.chatInput_wrapper{
+    overflow-y: scroll;
+    height: 100%;
+    margin-bottom: 65px;
+}
+.format_time{
+    font-size: small;
+    margin-top:10px;
+    margin-right: 0;
+    text-align: end;
+    color: #f9f9f9;
+}
+.chat_cntainer.chat_right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: start;
+    margin: 20px;
+    background-color: rgba(185, 185, 228, 0.812);
+    width: 45%;
+    margin-left: auto;
+    padding: 10px;
+    word-wrap: break-word;
+    /* word-break: break-all; */
+    border-radius: 10px;
+}
+.chat_cntainer.chat_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin: 20px;
+    background-color: rgba(206, 168, 168, 0.45);
+    width: 45%;
+    object-fit: contain;
+    padding: 15px 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

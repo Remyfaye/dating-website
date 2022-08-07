@@ -1,0 +1,80 @@
+
+
+.home_text{
+    margin: 20px;
+    font-family: "Blaka", cursive;
+    font-size: x-large;
+}
+
+.home{
+    height: 102vh;
+    
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTZcCbxzNMFZk6XeAkG-ur50xj3xGL5DXoNAOl-TE8nS76eRLt7EDng_0B5IKZsHqhiI&usqp=CAU'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-image: linear-gradient(90deg, rgb(107, 142, 171), #f0d9d952);
+}
+.home_center{
+    align-items: center;
+    margin-top: 13vh;
+   
+}
+.cancel_modal{
+    background-color: rgb(158, 101, 110);
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+    margin: 7px;
+    color: whitesmoke;
+}
+.auth_modal{
+    background-color: white;
+    height: 50vh;
+    width: 47vh;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10vh;
+    
+}
+.auth_modal form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+input{
+    width: 80%;
+    padding: 8px;
+    margin: 10px;
+}
+.auth_modal hr{
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    color: black;
+}
+.auth_modal h3{
+    margin-top: 15px;
+}
+.auth_modal h2{
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

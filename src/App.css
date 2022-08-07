@@ -1,10 +1,68 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Redux Pro', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  /* background-image: linear-gradient(#010c22,rgb(39, 1, 1)); */
+  
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+    
+} 
+body{
+  text-align: center;
+  justify-content: center;
+  background-color: #dbd2d252;
+  min-height: 100vh;
+  color: rgb(79, 85, 90);
+}
+
+.primary_btn{
+  margin: 20px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #904bcf;
+  padding: 10px 20px;
+  font-size: 26px;
+  border-radius: 30px;
+  color: rgb(198, 219, 198);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.33);
+}
+.primary_btn:hover{
+  background-color: #28395c9c;
+}
+.primary_btn2{
+  
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #7c778f;
+  padding: 9px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: rgb(198, 219, 198);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.23);
+}
+.primary_btn2:hover{
+  background-color: #28395c9c;
+}
+.primary_btn3{
+  
+  border: 2px solid #b0acc4;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+  padding: 6px 10px;
+  font-size: 15px;
+  border-radius: 30px;
+  color: rgb(38, 39, 38);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.13);
+}
+.primary_btn3:hover{
+  background-color: #28395c9c;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,13 +72,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+  min-height: 7vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 6vmin);
   color: white;
 }
 
@@ -36,3 +94,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
