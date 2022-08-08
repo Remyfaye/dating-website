@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dating-website/static/css/main.b6e647a3.css",
-    "main.js": "/dating-website/static/js/main.e8e46d55.js",
+    "main.js": "/dating-website/static/js/main.2328fa2a.js",
     "index.html": "/dating-website/index.html",
     "main.b6e647a3.css.map": "/dating-website/static/css/main.b6e647a3.css.map",
-    "main.e8e46d55.js.map": "/dating-website/static/js/main.e8e46d55.js.map"
+    "main.2328fa2a.js.map": "/dating-website/static/js/main.2328fa2a.js.map"
   },
   "entrypoints": [
     "static/css/main.b6e647a3.css",
-    "static/js/main.e8e46d55.js"
+    "static/js/main.2328fa2a.js"
   ]
 }
